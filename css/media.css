@@ -1,0 +1,113 @@
+
+@media (max-width: 600px){
+    header h2{
+        padding-right: 60px;
+    }
+}
+@media (max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+
+
+@media (max-width: 700px){
+	header{
+		flex-direction: column;		
+	}
+
+	header h2{
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 800px){
+
+	section.section1{
+		min-height: 600px;
+	}
+
+	.divh1 h1{
+		font-size: 48px;
+	}
+
+	.section1 h3{
+		font-size: 24px;
+	}
+
+	.divbtn a.btn{
+		padding: 15px 40px;
+	}
+
+}
+@media (max-width: 1000px){
+
+	.section2 .divv .imggsmall,
+	.section2 .divv .imgglarge{
+		flex-basis: 100%;
+	}
+
+}
+@media (max-width: 600px){
+    .section2 .pp{
+        padding-right: 500px;
+        text-align: center;
+		font-size: 16px;
+    }
+    .section2 .divimg .imgglarge{
+	width: 490px;
+    }
+}
+@media (max-width: 1000px){
+
+	.section3 .divv div{
+		flex-basis: 70%;
+		margin-bottom: 65px;
+	}
+
+}
+
+
+@media (max-width: 600px){
+
+	.section3 .divv div{
+		flex-basis: 100%;
+    }
+    .section3 .pp{
+        padding-right: 400px;
+        text-align: center;
+		font-size: 16px;
+    }
+
+}
+@media (max-width: 1000px){
+
+	.section4 .ppp{
+		font-size: 20px;
+	}
+
+	.section4 .pp2{
+	    font-size: 16px;
+	}
+
+    
+@media (max-width: 600px){
+
+	.section5 .pp{
+        padding-right: 500px;
+        text-align: center;
+		font-size: 16px;
+	}
+@media (max-width: 800px){
+
+	.section5 form input{
+		flex-basis: 100%;
+		margin: 0 0 20px 0;
+	}
+
+}
+@media (max-width: 700px){
+
+	footer{
+		padding: 80px 15px;
+	}
+}
